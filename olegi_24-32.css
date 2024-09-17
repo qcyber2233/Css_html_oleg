@@ -1,0 +1,52 @@
+p {
+    color: red;
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: red;
+}
+
+h1 {
+    color: orange;
+}
+
+p {
+    color: rgb(255, 236, 114);
+}
+
+p {
+    color: #ff0000;
+}
+
+td {
+    width: 300px;
+    height: 400px;
+}
+
+p {
+    text-align: right;
+}
+
+p {
+    text-align: center;
+}
+
+p
+ {
+	text-align: right;
+}
+
+p 
+{
+	text-align: center;
+}
+
+
