@@ -1,0 +1,12 @@
+p {
+	text-indent: 80px;
+	text-align: justify;
+	width: 400px;
+}
+
+p {
+	text-decoration: underline;
+    text-decoration: overline;
+    color: red;
+    text-decoration: line-through;
+}	
