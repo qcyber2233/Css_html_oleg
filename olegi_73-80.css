@@ -1,0 +1,75 @@
+ .d1 h2{
+    font-size: 20px;
+  }
+  .d2 h2{ 
+    font-size: 30px;
+  }
+  
+  .d2 h2 {
+      font-size: 20px;
+      color: blue;
+  }
+  .d2 h2 {
+      font-style: italic;
+      color: red;
+  }
+
+
+  .d3-1 #elem + li{
+    color: rgb(60, 0, 255);
+    font-style: oblique ;
+  }
+
+  .d3-2 .elem + li{
+    color: rgb(17, 0, 255);
+  }
+
+  .d4 #elem ~ li{
+    color: red;
+  }
+
+  .d5 main * p{
+    color: red;
+  }
+
+
+
+ .d6 [title]
+{
+    font-size: 50px;
+    color: brown;
+}
+.d6 p[title]
+{
+    font-size: 50px;
+    color: yellowgreen;
+}
+.d6 p[title="hello"]
+{
+    font-size: 50px;
+    color: firebrick;
+}
+.d6 a[href^="http://"]
+{
+    font-size: 50px;
+    color: red;
+}
+.d6 a[href$=".html"] 
+{
+	color: green;
+    font-size: 50px;
+}
+.d6 p[title*="hello"]
+{
+    font-size: 50px;
+    color: blueviolet;
+}
+.d6 p[class^="top-"]
+{
+    font-size: 50px;
+    color: blue;
+}
+
+
+
+  
