@@ -1,0 +1,204 @@
+.a0 {
+
+    text-align: left;
+}
+
+
+
+
+.a1 {
+    h1, h2, h3{
+        text-align: center;
+    }
+
+}
+
+
+.a2-1{
+    h1, h2, h3 {
+        text-align: center;
+    }
+    h2 {
+        color: blue;
+    }
+    h3 {
+        font-size: 16px;
+        color: red;
+    }
+}
+
+
+
+.a2-2{
+
+    h1, h2, h3 {
+        text-align: center;
+        color: red;
+    }
+    h3 {
+        font-size: 16px;
+    }
+}
+
+
+
+.a3-1{
+ul i{
+    color: red;
+}
+p i{
+    color: green;
+}
+}
+
+.a3-2{
+    p b{
+        color: red;
+    }
+}
+
+
+
+.a4{
+    li > b{
+        color: red;
+    }
+}
+
+
+
+.a5-1 .odd{
+    color: red;
+}
+.a5-1 .eve{
+    color: green;
+}
+.a5-2 .eee{
+    color: red;
+}
+
+
+
+
+
+.a7-1 .qred{
+    color: red;
+}
+.a7-1 .qreen{
+    color:green
+}
+.a7-1 .qblue{
+    color: rgb(0, 255, 247);
+}
+
+
+
+.a7-2 .qred{
+    color: red;
+}
+.a7-2 .qgreen{
+    color: green    ;
+}
+
+
+
+
+.a8-2 .zzz, .ggg, .eee {
+    text-align: center;
+    font-family: Arial;
+}
+.a8-2 .eee{
+    font-size: 20px;
+}
+.a8-2 .zzz{
+    font-size: 30px;
+}
+.a8-2 .ggg{
+	font-size: 35px;
+}
+
+.a9 h3.header{
+    color: red;
+    font-size: 30px;
+}
+.a9 h2.header{
+    color: red;
+    font-size: 40px;
+}
+
+
+.a10 .eee98 i{
+    color: red;
+}
+
+
+.a11 .eee1 .bbb1 {
+    color: red; 
+}
+
+.a11 .eee1 h2 {
+    color: red; 
+}
+
+.a11 .eee1 h2.bbb1 {
+    color: red; 
+}
+
+.a11 .eee1 h3.bbb1 {
+    color: red; 
+}
+
+.a11 .eee1 p.bbb1 {
+    color: red; 
+}
+
+.a11 .eee1 .bbb1 .kkk1 {
+    color: red; 
+}
+
+
+
+
+
+.a12 p.nenadotak {
+	color: red;
+}
+.a12 p .nenadotak2 {
+	color: red;
+}
+.a12 .papa p.mama {
+	color: red;
+}
+.a12 .si p .messi {
+	color: red;
+}
+
+
+
+
+
+.a13 .success {
+	color: green;
+}
+.a13 .error {
+	color: red;
+}
+.a13 .large {
+	font-size: 30px;
+}
+.a13 .small {
+	font-size: 20px;
+}
+
+
+.a13 .Ya{
+color: blue;
+}
+.a13 .Oleg{
+    font: 40px Arial;
+    font-style: oblique ;
+}
+
+.a13 .EsliNePonyali{
+    text-align: right;
+}
