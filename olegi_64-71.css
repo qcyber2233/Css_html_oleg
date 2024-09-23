@@ -1,0 +1,121 @@
+#elem1 {
+    color: red;
+  }
+  
+  #elem2 {
+    color: green;
+  }
+  
+  #elem3 {
+    color:rgb(0, 255, 238);
+  }
+
+
+
+
+  .b2 #block {
+    color: red;
+    font-family: Arial;
+  }
+  
+  .b2 .text {
+    font-size: 30px;
+  }
+
+
+
+
+
+  .b3-1 #pupupam .aaaaa {
+    color: blue;
+  }
+  
+  .b3-1 #pupupam h2.aaaaa {
+    color: rgb(2, 255, 171);
+  }
+
+  .b3-1 #elem h2 {
+    color: blueviolet;
+  }
+
+  .b3-2 #elem .new_text {
+    color: rgb(255, 157, 0);
+  }
+
+  .b3-3 #elem p.now_text {
+    color: rgb(214, 2, 122);
+  }
+
+  .b3-4 #elem li.now_text {
+    color: rgb(123, 0, 255);
+  }
+
+
+
+
+  .eee.zzz.ccc {
+    color: rgb(255, 92, 247);
+  }
+
+
+
+
+
+
+
+  .b5-1 #papamamak_1 h1,
+#papamama h2 {
+  text-align: center;
+}
+
+.b5-2 #mamapapa h1,
+#mamapapa h2 {
+  text-align: center;
+}
+.b5-2 #mamapapa h1 {
+    font-size: 30px;
+  }
+.b5-2 #mamapapa h2 {
+    font-size: 20px;
+  }
+
+
+
+
+
+
+ .b6-1 #block h1,#block h2,#block h3 {
+    text-align: center;
+  }
+  .b6-1 #block h2 {
+    color: blue;
+  }
+  .b6-1 #block h3 {
+    color: red;
+    font-size: 30px;
+  }
+
+
+  .b6-2 #block h1.eee 
+  {
+    font-size: 30px;
+  }
+  .b6-2 #block h2.zzz {
+    
+    font-size: 20px;
+  }
+  .b6-2 #block h1.eee,#block h2.zzz
+  {
+      text-align: center;
+  }
+
+
+  .b6-3 #eee h2,.xxx .kkk,.eee h2.zzz 
+  {
+    text-align: center;
+  }
+
+
+ .b6-4 .eee h2.zzz,.xxx {
+    text-align: center;
+  }
