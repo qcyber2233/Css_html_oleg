@@ -1,0 +1,85 @@
+.c-1 div p {
+    color: red;
+  }
+  .c-2 div h2 {
+    text-align: right;
+  }
+  .c-3 #block p {
+    text-align: right;
+  }
+  .c-4 #block h2 {
+    color: red;
+  }
+  .c-5 .bbb {
+    font-family: Arial;
+    font-size: 40px;
+  }
+  .c-6 #block .bbb {
+    font-size: 40px;
+  }
+  .c-7 p.bbb {
+    color: rgba(255, 90, 90, 0.9);
+  }
+  .c-8 h2.bbb {
+    color: rgb(100, 255, 255);
+    font-size: 40px;
+  }
+  .c-9 #block p.bbb {
+    color: red;
+  }
+  .c-10 .bbb, .xxx {
+    color: rgb(72, 255, 0);
+    font-size: 200px;
+  }
+
+
+
+
+
+
+ .c-11 p.bbb, h2.xxx
+{
+    font-size: 200px;
+    color: rgba(27, 17, 164, 0.848);
+}
+
+
+.c-12 #block p.bbb, #block p.xxx 
+{
+    font-size: 40px;
+    color: rgba(29, 132, 172, 0.949);
+}
+
+
+.c-13 .fff
+{
+    font-size: 40px;
+    color: rgba(0, 255, 115, 0.949);
+}
+
+
+
+.c-14 .fff p
+{
+    text-align: right;
+    color:rgb(132, 0, 255);
+}
+
+.c-15 p.fff {
+    font-size: 35px;
+    color: rgb(255, 35, 145);
+}
+
+
+.c-16 .fff .bbb 
+{
+    color: rgb(6, 255, 159);
+}
+
+
+.c-17 .fff h2.bbb 
+{
+    font-size: 50px;
+    color: grey;
+    
+}
