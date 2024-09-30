@@ -1,0 +1,112 @@
+.e1 :link {
+	color: rgb(0, 236, 236);
+}
+.e1 :visited {
+	color: green;
+}
+.e1 :hover {
+	text-decoration: none;
+    color: red;
+}
+.e1 :active {
+	color: black;
+}
+
+.e2 a {
+	color: rgb(0, 255, 255);
+    text-decoration: none;
+}
+.e2 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.e3 #zadacha1 a {
+	color: red
+}
+.e3 #zadacha1 a:hover {
+	text-decoration: none;
+}
+
+
+
+
+.e4-1 a.zzz {
+	color: red;
+}
+.e4-1 a.zzz:hover {
+	text-decoration: none;
+}
+
+.e4-2 #zadacha2 a.zzz-2{
+	color: red;
+}
+.e4-2 #zadacha2 a.zzz-2:hover {
+	text-decoration: none;
+}
+
+
+
+
+.e4-3 .zadacha3 a.zzz-3 {
+	color: red;
+}
+.e4-3 .zadacha3 a.zzz-3:hover {
+	text-decoration: none;
+}
+
+
+
+
+.e4-1 li:first-child {
+	color: red;
+}
+
+.e4-2 li:last-child {
+	color: red;
+}
+.e4-4 li:nth-child(3) {
+	color: red;
+}
+
+.e4-5 li:nth-child(odd) {
+	color: red;
+}
+.e4-5 li:nth-child(even) {
+	color: green;
+}
+
+
+
+
+
+
+.e4-7 li:nth-last-child(2) {
+	color: red;
+}
+
+
+
+.e4-8 li:only-child {
+	color: red;
+}
+
+.e5-3 div {
+	border: 1px dashed rgb(117, 0, 0);
+	padding: 15px;
+	margin-bottom: 10px;
+}
+.e5-3 h2:only-of-type {
+	color: red;
+}
+
+
+
+.e6-1 li:not(.elem) {
+	color: red;
+}
+.e6-2 li:not(:first-child){
+	color: red;
+}
+.e6-3 li:not(:first-child, :last-child){
+	color: red;
+}
