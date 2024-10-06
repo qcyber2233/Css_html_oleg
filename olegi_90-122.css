@@ -1,0 +1,225 @@
+.z90_1 #glava90_1a{
+    width: 200px;
+    height: 200px;
+    background-color: #000c77;
+}
+.z90_2 #glava90_2a{
+        width: 300px;
+        height: 200px;
+        color: white;
+        background-color: #0fea75;
+        text-align: center;
+        font-size: 30px;
+}
+
+.z92_1 #elem {
+    width: 300px;
+    height: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.glava93_1 #elem {
+    width: 300px;
+    height: 200px;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: red;
+}
+
+.z94_1 #elem {
+    width: 300px;
+    height: 200px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(171, 118, 20);
+}
+
+.z96_1 #elem {
+    width: 300px;
+    height: 200px;
+    border-width: 10px;
+    border-style: double;
+    border-color: blue;
+}
+
+.z97_1 #elem {
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+}
+.z97_2 #elem {
+    width: 300px;
+    height: 200px;
+    border: 2px dotted blue;
+}
+.z97_3 #elem {
+    width: 300px;
+    height: 200px;
+    border: 3px dashed green;
+}
+.z97_4 #elem {
+    width: 300px;
+    height: 200px;
+    border: 5px double orange;
+}
+
+.z98_1 #elem {
+    width: 300px;
+    height: 200px;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid red;
+    border-left: 3px solid orange;
+    border-right: 3px solid green;
+}
+.z98_2 #elem {
+    width: 300px;
+    height: 200px;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+    border-left: 3px solid rgb(189, 4, 4);
+    border-right: 3px dotted rgb(11, 158, 11);
+}
+
+.z99_1 #elem {
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(5, 84, 5);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.z100_1 #elem {
+    width: 200px;
+    height: 200px;
+    background-color: #07a551;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.z101_1 #elem {
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(68, 207, 68);
+    border-radius: 100px;
+}
+
+.z103_1 #elem {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px 30px 50px 70px;
+}
+
+.z104_1 #elem {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px 30px;
+    text-align: center;
+}
+
+
+.z105_1 #elem {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px 30px 20px;
+}
+
+.z107_1 #elem {
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    border-radius: 100px;
+}
+
+.z108_1 #elem {
+	background-image: url("bg.png");
+	width: 400px;
+	height: 300px;
+	border: 3px solid black;
+}
+
+.z109_1 #elem {
+	background-repeat: repeat-y;
+	background-image: url("bg.png");
+	width: 500px;
+	height: 500px;
+	border: 1px solid black;
+}
+.z109_2 #elem {
+	background-repeat: repeat-x;
+	background-image: url("bg.png");
+	width: 400px;
+	height: 300px;
+	border: 1px solid black;
+}
+
+.z110_1 #elem {
+	background-position: bottom right;
+	background-image: url("bg.png");
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 300px;
+	border: 1px solid black;
+}
+.z #elem {
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-image: url("bg.png");
+	border: 1px solid black;
+	width: 400px;
+	height: 400px;
+}
+.z110_4 #elem {
+	background-color: orange;
+	background-clip: border-box;
+	border: 10px dashed black;
+	padding: 30px;
+	width: 250px;
+	height: 150px;
+}
+.z110_5 #elem {
+	background-repeat: repeat;
+	background-image: url("bg.png");
+	border: 10px dashed black;
+	padding: 30px;
+	width: 350px;
+	height: 300px;
+}
+
+
+
+.z112 ul {
+	list-style-type: square;
+}
+
+.z113 ul {
+	list-style-type: circle;
+}
+
+.z114 ul {
+	list-style-type: disc;
+}
+
+.z115 ul {
+	list-style-type: none;
+} 
+
+.z119 ol {
+	list-style-type: lower-alpha;
+}
+
+.z120 ol {
+	list-style-type: upper-alpha;
+}
+
+.z121 ol {
+	list-style-type: lower-greek;
+}
+
+.z122 ol {
+	list-style-type: decimal-leading-zero;
+}
