@@ -1,0 +1,154 @@
+.glava179_1 #elem1 {
+	position: absolute;
+	top:    100px;
+	right:  100px;
+	bottom: 100px;
+	left:   100px;
+	
+	border: 1px solid green;
+}
+.glava179_2 #elem1 {
+	position: absolute;
+	top:    100px;
+	right:  200px;
+	bottom: 50px;
+	left:   10px;
+	
+	border: 1px solid green;
+}
+
+
+
+.glava182 #elem {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	border: 1px solid #a3aa11;
+    background-color: #C4CD14;
+
+    font-size: 22px;
+    line-height: 50px;
+    text-align: center;
+    color:white;
+    padding: auto;
+    
+}
+
+.content {
+    text-align: justify;
+    padding: 20px;
+	margin: 60px auto;
+	width: 600px;
+	text-align: justify;
+	font: 16px "Times New Roman";
+    border: 1px solid #C4CD14;
+}
+
+.glava184_1{
+    margin-bottom: 150px;
+}
+.glava184_1 #elem1 {
+    background-color: #7e72eb;
+    left: 30px;
+    top: 30px;
+    margin-top: 50px;
+}
+.glava184_1 #elem2 {
+    background-color: #7e89eb;
+    left: 60px;
+    top: 60px;
+    z-index: 1;
+    margin-top: 50px;
+}
+.glava184_1 #elem3 {
+    background-color: #1eff00;
+    left: 90px;
+    top: 90px;
+    margin-top: 50px;
+}
+.glava184_1 #elem1, .glava184_1 #elem2, .glava184_1 #elem3 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+.glava184_2{
+    margin-bottom: 150px;
+}
+.glava184_2 #elem1 {
+    background-color: #7e72eb;
+    left: 30px;
+    top: 30px;
+    margin-top: 250px;
+    z-index: 2;
+}
+.glava184_2 #elem2 {
+    background-color: #172494;
+    left: 60px;
+    top: 60px;
+    z-index: 1;
+    margin-top: 250px;
+}
+.glava184_2 #elem3 {
+    background-color: #1eff00;
+    left: 90px;
+    top: 90px;
+    margin-top: 250px;
+}
+.glava184_2 #elem1, .glava184_2 #elem2, .glava184_2 #elem3 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+
+.glava186 {
+	text-align: justify;
+    width: 900px;
+}
+.glava186 #image1 {
+	float: left;
+}
+.glava186 #image2 {
+    float: right;
+}
+
+.left {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.right {
+    float: right;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.glava191 {
+    width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: justify;
+}
+
+
+.glava200 .parent {
+    width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: justify;
+}
+.glava200 .child {
+    float: right;
+    width: 100px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 1px solid green;
+}
