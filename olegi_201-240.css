@@ -1,0 +1,580 @@
+glava220_1 .parent {
+    display: grid;
+    border: 3px solid rebeccapurple;
+  }
+  .glava220_1 .child,
+  .glava220_2 .child,
+  .glava220_3 .child,
+  .glava220_4 .child {
+    border: 1px dashed yellowgreen;
+  }
+  .glava220_2 .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    border: 3px solid rebeccapurple;
+  }
+  .glava220_3 .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    border: 3px solid rebeccapurple;
+  }
+  .glava220_4 .parent {
+    display: grid;
+    grid-template-columns: 100px 150px 200px;
+    border: 3px solid rebeccapurple;
+  }
+  /* глава 221 */
+  .glava221_1 .parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .glava221_1 .child,
+  .glava221_2 .child,
+  .glava221_3 .child {
+    border: 1px dashed yellowgreen;
+  }
+  .glava221_2 .parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .glava221_3 .parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+  }
+  /* глава 222 */
+  .glava222_1 .parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+  }
+  .glava222_1 .parent .child {
+    padding: 10px;
+    border: 1px solid #696989;
+  }
+  .glava222_2 .parent {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 2.5fr;
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+  }
+  .glava222_2 .child {
+    padding: 10px;
+    border: 1px solid #696989;
+  }
+  /* глава 223 */
+  .glava223_1 .parent {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+  }
+  .glava223_1 .child {
+    padding: 10px;
+    border: 1px solid #696989;
+  }
+  .glava223_2 .parent {
+    display: grid;
+    grid-template-columns: 100px 1fr 1.5fr 100px;
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+  }
+  .glava223_2 .child {
+    padding: 10px;
+    border: 1px solid #696989;
+  }
+  /* глава 224 */
+  .glava224_1 .parent {
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+  }
+  .glava224_1 .child {
+    padding: 10px;
+    border: 1px solid #696989;
+  }
+  .glava224_2 .parent {
+    display: grid;
+    grid-template-columns: 100px 20% 1fr 2fr 3fr;
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+  }
+  .glava224_2 .child {
+    padding: 10px;
+    border: 1px solid #696989;
+  }
+  /* глава 225 */
+  .glava225_1 .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid #696989;
+    padding: 10px;
+    width: 600px;
+  }
+  .glava225_1 .child {
+    padding: 10px;
+    border: 1px solid #696989;
+  }
+  .glava225_2 .parent {
+      display: grid;
+      grid-template-columns: repeat(4, 100px) repeat(3, 1fr);
+      border: 2px solid #696989;
+      padding: 10px;
+      width: 600px;
+    }
+  .glava225_2 .child {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  .glava225_3 .parent {
+      display: grid;
+      grid-template-columns: repeat(2, 100px) repeat(3, 200px) 1fr repeat(2, 10%);
+      border: 2px solid #696989;
+      padding: 10px;
+      width: 1200px;
+    }
+  .glava225_3 .child {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  /* глава 226 */
+  .glava226_1 .parent {
+      display: grid;
+      grid-template-columns: 200px auto;
+      border: 2px solid #696989;
+      padding: 10px;
+      width: 1200px;
+    }
+  .glava226_1 .child {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  .glava226_2 .parent {
+      display: grid;
+      grid-template-columns: 100px 150px auto;
+      border: 2px solid #696989;
+      padding: 10px;
+      width: 1200px;
+    }
+  .glava226_2 .child {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  /* глава 227 */
+  .glava227_1 .parent {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 200px);
+      border: 2px solid #696989;
+      padding: 10px;
+      width: 600px;
+    }
+  .glava227_1 .child {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  /* глава 228 */
+  .glava228_1 .parent {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      border: 2px solid #696989;
+      padding: 10px;
+      width: 600px;
+    }
+  .glava228_1 .child {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  /* глава 229 */
+  .glava229_1 .parent {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      border: 2px solid #696989;
+      padding: 10px;
+      width: 500px;
+    }
+  .glava229_1 .child {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  .glava229_2 .parent {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      border: 2px solid #696989;
+      padding: 10px;
+      width: 400px;
+    }
+  .glava229_2 .child {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  /* глава 230 */
+  .glava230_1 .parent {
+      display: grid;
+      grid-template-rows: repeat(2, 100px) repeat(2, 150px) repeat(2, 200px);
+      border: 2px solid #696989;
+      padding: 10px;
+      width: 400px;
+    }
+  .glava230_1 .child {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  .glava230_2 .parent {
+      display: grid;
+      grid-template-rows: repeat(auto-fill, 100px);
+      border: 2px solid #696989;
+      padding: 10px;
+      width: 400px;
+      height: 600px;
+    }
+  .glava230_2 .child {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  /* глава 231 */
+  .glava231_1 .parent {
+      display: grid;
+      grid-template: 1fr 2fr / 0.5fr 1fr 1fr 2fr;
+      border: 2px solid #696989;
+      padding: 10px;
+      margin: 0 auto;
+      width: 600px;
+      height: 200px;
+  }
+  .glava231_1 .child {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  .glava231_2 .parent {
+      display: grid;
+      grid-template: 1fr 2fr / 2fr 1fr 1fr 2fr;
+      border: 2px solid #696989;
+      padding: 10px;
+      margin: 0 auto;
+      width: 600px;
+      height: 200px;
+  }
+  .glava231_2 .child {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  .glava231_3 .parent {
+      display: grid;
+      grid-template: 1fr 1fr 2fr 4fr / 0.5fr 1.5fr 3fr;
+      border: 2px solid #696989;
+      padding: 10px;
+      margin: 0 auto;
+      width: 600px;
+      height: 300px;
+  }
+  .glava231_3 .child {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  .glava231_4 .parent {
+      display: grid;
+      grid-template: 2fr 1fr 1fr / 2fr 1fr 2fr 1fr;
+      border: 2px solid #696989;
+      padding: 10px;
+      margin: 0 auto;
+      width: 600px;
+      height: 300px;
+  }
+  .glava231_4 .child {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  .glava231_5 .parent {
+      display: grid;
+      grid-template: 2fr 1fr / repeat(2, 0.5fr) 1fr repeat(2, 2fr);
+      border: 2px solid #696989;
+      padding: 10px;
+      margin: 0 auto;
+      width: 600px;
+      height: 300px;
+  }
+  .glava231_5 .child {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  /* глава 232 */
+  .glava232_1 .parent {
+    display: grid;
+    padding: 10px;
+    border: 2px solid #696989;
+    height: 300px;
+    width: 300px;
+  }
+  .glava232_1 .parent > div {
+    padding: 10px;
+    border: 1px solid #696989;
+  }
+  .glava232_1 .child1,.glava232_1 .child3 {
+    grid-row: 1 / 2;
+  }
+  .glava232_1 .child2{
+    grid-row: 2 / 3;
+  }
+  .glava232_1 .child4{
+    grid-row: 2 / 4;
+  }
+  .glava232_1 .child5{
+    grid-row: 3 / 4;
+  }
+  .glava232_2 .parent {
+    display: grid;
+    padding: 10px;
+    border: 2px solid #696989;
+    height: 300px;
+    width: 300px;
+  }
+  .glava232_2 .parent > div {
+    padding: 10px;
+    border: 1px solid #696989;
+  }
+  .glava232_2 .child1 {
+    grid-row: 1 / 5;
+  }
+  .glava232_2 .child2{
+    grid-row: 1 / 2;
+  }
+  .glava232_2 .child3{
+    grid-row: 2 / 3;
+  }
+  .glava232_2 .child4{
+    grid-row: 3 / 4;
+  }
+  .glava232_2 .child5{
+    grid-row: 4 / 5;
+  }
+  /* глава 233 */
+  .glava233_3 .parent {
+    display: grid;
+    padding: 10px;
+    border: 2px solid #696989;
+    height: 300px;
+    width: 300px;
+  }
+  .glava233_3 .parent > div {
+    padding: 10px;
+    border: 1px solid #696989;
+  }
+  .glava233_3 .child1 {
+    grid-column: 1/2;
+  }
+  .glava233_3 .child2{
+    grid-column: 2 / 5;
+  }
+  .glava233_3 .child3{
+    grid-column: 5 / 6;
+  }
+  .glava233_3 .child4{
+    grid-column: 1 / 3;
+  }
+  .glava233_3 .child5{
+    grid-column: 3/6;
+  }
+  .glava233_3 .child6{
+    grid-column: 1/4;
+  }
+  .glava233_3 .child7{
+    grid-column: 4/6;
+  }
+  /* глава 234 */
+  .glava234_1 .parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid #696989;
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+  }
+  .glava234_1 .parent > div {
+    padding: 10px;
+    border: 1px solid #696989;
+  }
+  .glava234_1 .child1 {
+    grid-row: 1 / 3;
+    grid-column: 1 / 3;
+  }
+  .glava234_1 .child2 {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+  }
+  .glava234_1 .child3 {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+  }
+  /* глава 235 */
+  .glava235_1 .parent {
+    display: grid;
+    padding: 10px;
+    border: 2px solid #696989;
+    width: 400px;
+    height: 300px;
+  }
+  .glava235_1 #elem1{
+    grid-column: 1 / 3;
+  }
+  .glava235_1 #elem2 {
+    grid-column: 2 / 4;
+  }
+  .glava235_1 #elem3 {
+    grid-column: 3 / 5;
+  }
+  .glava235_1 .parent > div {
+    padding: 10px;
+    border: 1px solid #696989;
+  }
+  
+  .glava235_2 .parent {
+    display: grid;
+    padding: 10px;
+    border: 2px solid #696989;
+    width: 400px;
+    height: 300px;
+  }
+  .glava235_2 #elem1{
+    grid-column: 1 / 3;
+  }
+  .glava235_2 #elem2 {
+    grid-column: 2 / 5;
+  }
+  .glava235_2 #elem3 {
+    grid-column: 1 / 4;
+  }
+  .glava235_2 #elem4 {
+    grid-column: 3 / 5;
+  }
+  .glava235_2 #elem5 {
+    grid-column: 1 / 4;
+  }
+  .glava235_2 .parent > div {
+    padding: 10px;
+    border: 1px solid #696989;
+  }
+  
+  .glava235_3 .parent {
+    display: grid;
+    padding: 10px;
+    border: 2px solid #696989;
+    width: 400px;
+    height: 300px;
+  }
+  .glava235_3 #elem1{
+    grid-column: 1 / 3;
+  }
+  .glava235_3 #elem2 {
+    grid-column: 3 / 5;
+  }
+  .glava235_3 #elem3 {
+    grid-column: 2 / 4;
+  }
+  .glava235_3 #elem4 {
+    grid-column: 1 / 3;
+  }
+  .glava235_3 #elem5 {
+    grid-column: 2 / 5;
+  }
+  .glava235_3 .parent > div {
+    padding: 10px;
+    border: 1px solid #696989;
+  }
+  /* глава 236 */
+  .glava236_1 .parent {
+      display: grid;
+      column-gap: 20%;
+      grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+      padding: 10px;
+      border: 2px solid #696989;
+      width: 600px;
+      height: 200px;
+  }
+  .glava236_1 .parent > div {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  /* глава 237 */
+  .glava237_1 .parent {
+      display: grid;
+      row-gap: 25%;
+      padding: 10px;
+      border: 2px solid #696989;
+      width: 600px;
+      height: 300px;
+  }
+  .glava237_1 .parent > div {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  /* глава 238 */
+  .glava238_1 .parent {
+      display: grid;
+      gap: 10px;
+      grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+      padding: 10px;
+      border: 2px solid #696989;
+      width: 600px;
+      height: 200px;
+  }
+  .glava238_1 .parent > div {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  .glava238_2 .parent {
+      display: grid;
+      gap: 10px 5%;
+      grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+      padding: 10px;
+      border: 2px solid #696989;
+      width: 600px;
+      height: 200px;
+  }
+  .glava238_2 .parent > div {
+      padding: 10px;
+      border: 1px solid #696989;
+  }
+  /* глава 239 */
+  .glava239_1 .parent {
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    border: 2px solid #696989;
+  }
+  .glava239_1 .parent > div {
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #696989;
+  }
+  .glava239_2 .parent {
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 2fr 3fr;
+    grid-gap: 10px;
+    border: 2px solid #696989;
+  }
+  .glava239_2 .parent > div {
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #696989;
+  }
+  .glava239_3 .parent {
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    border: 2px solid #696989;
+  }
+  .glava239_3 .parent > div {
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #696989;
+  }
